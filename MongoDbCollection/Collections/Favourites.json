@@ -1,0 +1,46 @@
+[{
+  "_id": {
+    "$oid": "63668577dd45f7b7e8762178"
+  },
+  "userId": {
+    "$oid": "6365ba67dd45f7b7e8762135"
+  },
+  "propertyId": [
+    {
+      "$oid": "638d8e020f0fe0e1355eef0d"
+    },
+    {
+      "$oid": "638d8e070f0fe0e1355eef0e"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63668577dd45f7b7e8762842"
+  },
+  "userId": {
+    "$oid": "6365bb10dd45f7b7e8762184"
+  },
+  "propertyId": [
+    {
+      "$oid": "638d8e180f0fe0e1355eef0f"
+    },
+    {
+      "$oid": "638d8e1b0f0fe0e1355eef10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63668577dd45f7b7e8762826"
+  },
+  "userId": {
+    "$oid": "6365bb94dd45f7b7e8762187"
+  },
+  "propertyId": [
+    {
+      "$oid": "638d8e230f0fe0e1355eef11"
+    },
+    {
+      "$oid": "638d8e260f0fe0e1355eef12"
+    }
+  ]
+}]

@@ -1,0 +1,76 @@
+[{
+  "_id": {
+    "$oid": "636683d6dd45f7b7e8762172"
+  },
+  "guestId": {
+    "$oid": "6365bb10dd45f7b7e8762184"
+  },
+  "hostId": {
+    "$oid": "6365ba67dd45f7b7e8762135"
+  },
+  "propertyId": {
+    "$oid": "63667a9add45f7b7e8762148"
+  },
+  "checkIn": {
+    "$date": {
+      "$numberLong": "1671321600000"
+    }
+  },
+  "checkOut": {
+    "$date": {
+      "$numberLong": "1671494400000"
+    }
+  },
+  "numberOfGuests": 2,
+  "isActive": true
+},{
+  "_id": {
+    "$oid": "636683d6dd45f7b7e8762829"
+  },
+  "guestId": {
+    "$oid": "6365bbe3dd45f7b7e8762138"
+  },
+  "hostId": {
+    "$oid": "6365bb94dd45f7b7e8762187"
+  },
+  "propertyId": {
+    "$oid": "63667d5cdd45f7b7e8762721"
+  },
+  "checkIn": {
+    "$date": {
+      "$numberLong": "1668729600000"
+    }
+  },
+  "checkOut": {
+    "$date": {
+      "$numberLong": "1668902400000"
+    }
+  },
+  "numberOfGuests": 4,
+  "isActive": true
+},{
+  "_id": {
+    "$oid": "636683d6dd45f7b7e8762816"
+  },
+  "guestId": {
+    "$oid": "6365c026dd45f7b7e8762871"
+  },
+  "hostId": {
+    "$oid": "6365bbe3dd45f7b7e8762138"
+  },
+  "propertyId": {
+    "$oid": "63667a9add45f7b7e8762419"
+  },
+  "checkIn": {
+    "$date": {
+      "$numberLong": "1655510400000"
+    }
+  },
+  "checkOut": {
+    "$date": {
+      "$numberLong": "1655683200000"
+    }
+  },
+  "numberOfGuests": 6,
+  "isActive": true
+}]

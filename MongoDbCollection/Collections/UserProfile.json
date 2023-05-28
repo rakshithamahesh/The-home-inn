@@ -1,0 +1,81 @@
+[{
+  "_id": {
+    "$oid": "6365ba67dd45f7b7e8762135"
+  },
+  "firstName": "John",
+  "lastName": "Smith",
+  "emailId": "john@gmail.com",
+  "mobileNo": "4688248719",
+  "gender": "male",
+  "dob": {
+    "$date": {
+      "$numberLong": "1669420800000"
+    }
+  },
+  "password": "1296",
+  "isHost": false
+},{
+  "_id": {
+    "$oid": "6365bb10dd45f7b7e8762184"
+  },
+  "firstName": "Steven",
+  "lastName": "Mark",
+  "emailId": "steven@gmail.com",
+  "mobileNo": "8712596341",
+  "gender": "male",
+  "dob": {
+    "$date": {
+      "$numberLong": "1669593600000"
+    }
+  },
+  "password": "1782"
+},{
+  "_id": {
+    "$oid": "6365bb94dd45f7b7e8762187"
+  },
+  "firstName": "Parrth",
+  "lastName": "Gupta",
+  "emailId": "path@gmail.com",
+  "mobileNo": "4816982571",
+  "gender": "male",
+  "dob": "2022-12-26",
+  "password": "857",
+  "isHost": false
+},{
+  "_id": {
+    "$oid": "6365bbe3dd45f7b7e8762138"
+  },
+  "firstName": "Lily",
+  "lastName": "James",
+  "emailId": "lily@gmail.com",
+  "mobileNo": "8712569871",
+  "gender": "female",
+  "dob": "2022-09-26",
+  "password": "4789",
+  "isHost": false
+},{
+  "_id": {
+    "$oid": "6365c026dd45f7b7e8762871"
+  },
+  "firstName": "Lisa",
+  "lastName": "Jewel",
+  "emailId": "lisa@gmail.com",
+  "mobileNo": "2874198659",
+  "gender": "female",
+  "dob": "2022-08-26",
+  "password": "1483",
+  "isHost": true
+},{
+  "_id": {
+    "$oid": "638f7bc5e8b8aa5b7dcf79c0"
+  },
+  "firstName": "Rainam",
+  "lastName": "Shah",
+  "emailId": "rainam@gmail.com",
+  "mobileNo": "6878187457",
+  "gender": "male",
+  "dob": "2022-11-20T19:44:27.336Z",
+  "password": "$2a$10$Z6GzjZ2.uIPO962co9ImD.m62U6mO4GJSl15ha3/0GIcGlVyPDrPK",
+  "isHost": true,
+  "__v": 0
+}]

@@ -1,0 +1,504 @@
+{
+  "fields": [
+    {
+      "name": "_id",
+      "path": "_id",
+      "count": 5,
+      "types": [
+        {
+          "name": "ObjectID",
+          "bsonType": "ObjectID",
+          "path": "_id",
+          "count": 5,
+          "values": [
+            "63667a9add45f7b7e8762852",
+            "63667a9add45f7b7e8762148",
+            "63667a9add45f7b7e8762419",
+            "63667d5cdd45f7b7e8762721",
+            "63667d5cdd45f7b7e8762841"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "ObjectID",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "address",
+      "path": "address",
+      "count": 5,
+      "types": [
+        {
+          "name": "Document",
+          "bsonType": "Document",
+          "path": "address",
+          "count": 5,
+          "fields": [
+            {
+              "name": "city",
+              "path": "address.city",
+              "count": 5,
+              "types": [
+                {
+                  "name": "String",
+                  "bsonType": "String",
+                  "path": "address.city",
+                  "count": 5,
+                  "values": [
+                    "Three Rivers",
+                    "Three Rivers",
+                    "Kissimmee",
+                    "Forney",
+                    "Worley"
+                  ],
+                  "total_count": 0,
+                  "probability": 1,
+                  "unique": 4,
+                  "has_duplicates": true
+                }
+              ],
+              "total_count": 5,
+              "type": "String",
+              "has_duplicates": true,
+              "probability": 1
+            },
+            {
+              "name": "country",
+              "path": "address.country",
+              "count": 5,
+              "types": [
+                {
+                  "name": "String",
+                  "bsonType": "String",
+                  "path": "address.country",
+                  "count": 5,
+                  "values": [
+                    "United States",
+                    "United States",
+                    "United States",
+                    "United States",
+                    "United States"
+                  ],
+                  "total_count": 0,
+                  "probability": 1,
+                  "unique": 1,
+                  "has_duplicates": true
+                }
+              ],
+              "total_count": 5,
+              "type": "String",
+              "has_duplicates": true,
+              "probability": 1
+            },
+            {
+              "name": "state",
+              "path": "address.state",
+              "count": 5,
+              "types": [
+                {
+                  "name": "String",
+                  "bsonType": "String",
+                  "path": "address.state",
+                  "count": 5,
+                  "values": [
+                    "Texas",
+                    "California",
+                    "Florida",
+                    "Idaho",
+                    "Idaho"
+                  ],
+                  "total_count": 0,
+                  "probability": 1,
+                  "unique": 4,
+                  "has_duplicates": true
+                }
+              ],
+              "total_count": 5,
+              "type": "String",
+              "has_duplicates": true,
+              "probability": 1
+            }
+          ],
+          "total_count": 0,
+          "probability": 1
+        }
+      ],
+      "total_count": 5,
+      "type": "Document",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "amenities",
+      "path": "amenities",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "amenities",
+          "count": 5,
+          "values": [
+            "Beach House, Spa, Pool, Free wifi, Sauna, water activities.",
+            "Private Pool, Sports bar, game room, Free Wifi.",
+            "Golf Course, Spa, Pool, Free wifi, Sauna, Nature walk.",
+            "Home Theatre, Pool, Game room, Playstation, Free Wifi, Breakfast included.",
+            "Boating, Nature Walk, Free Wifi, Fishing."
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "availabilityFrom",
+      "path": "availabilityFrom",
+      "count": 5,
+      "types": [
+        {
+          "name": "Date",
+          "bsonType": "Date",
+          "path": "availabilityFrom",
+          "count": 4,
+          "values": [
+            "2022-05-19T00:00:00.000Z",
+            "2022-02-19T00:00:00.000Z",
+            "2022-06-19T00:00:00.000Z",
+            "2022-11-19T00:00:00.000Z"
+          ],
+          "total_count": 0,
+          "probability": 0.8,
+          "unique": 4,
+          "has_duplicates": false
+        },
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "availabilityFrom",
+          "count": 1,
+          "values": [
+            "2022-10-19"
+          ],
+          "total_count": 0,
+          "probability": 0.2,
+          "unique": 1,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": [
+        "Date",
+        "String"
+      ],
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "availabilityTo",
+      "path": "availabilityTo",
+      "count": 5,
+      "types": [
+        {
+          "name": "Date",
+          "bsonType": "Date",
+          "path": "availabilityTo",
+          "count": 4,
+          "values": [
+            "2022-06-27T00:00:00.000Z",
+            "2022-02-27T00:00:00.000Z",
+            "2022-06-27T00:00:00.000Z",
+            "2022-11-27T00:00:00.000Z"
+          ],
+          "total_count": 0,
+          "probability": 0.8,
+          "unique": 3,
+          "has_duplicates": true
+        },
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "availabilityTo",
+          "count": 1,
+          "values": [
+            "2022-10-27"
+          ],
+          "total_count": 0,
+          "probability": 0.2,
+          "unique": 1,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": [
+        "Date",
+        "String"
+      ],
+      "has_duplicates": true,
+      "probability": 1
+    },
+    {
+      "name": "bedrooms",
+      "path": "bedrooms",
+      "count": 5,
+      "types": [
+        {
+          "name": "Int32",
+          "bsonType": "Int32",
+          "path": "bedrooms",
+          "count": 5,
+          "values": [
+            1,
+            4,
+            12,
+            2,
+            5
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "Int32",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "cleaningFee",
+      "path": "cleaningFee",
+      "count": 5,
+      "types": [
+        {
+          "name": "Int32",
+          "bsonType": "Int32",
+          "path": "cleaningFee",
+          "count": 5,
+          "values": [
+            7,
+            25,
+            35,
+            11,
+            35
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 4,
+          "has_duplicates": true
+        }
+      ],
+      "total_count": 5,
+      "type": "Int32",
+      "has_duplicates": true,
+      "probability": 1
+    },
+    {
+      "name": "description",
+      "path": "description",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "description",
+          "count": 5,
+          "values": [
+            "Set in a low-rise building along Route 281, this unpretentious all-suite hotel is 2 miles from Tips Park, 4 miles from Interstate 37 and 11 miles from Choke Canyon State Park.",
+            "Located in Three Rivers, within 1.9 miles of Three Rivers and 4.4 miles of Kaweah, Sequoia Ridgetop Home - Breathtaking Views & Pool!",
+            "With the largest collection of vacation home rentals in the world, it’s easy to see why Kissimmee is the Vacation Home Capital of the World®. Take your pick of everything from condos, pool homes, high-value villas, and single-family abodes to 12-bedroom mansions, perfect for reunions or friends sharing a golf, shopping, or spa weekend. Plus, there are even pet-friendly vacation rentals, so that every member of the family can join in the fun. Enjoy all the comforts of home (with world-famous theme parks right in your backyard) at your Kissimmee, Florida vacation home.",
+            "The home is equipped with everything you need for the perfect getaway. Directly off the interstate, our home is 3-5 min. away from local stores and Starbucks. Have a taste of Texas, while still having easy accessibility to all that Dallas and Rockwall has to offer!",
+            "Coeur d’Alene Lake is the second largest lake in northern Idaho, caught in a beautiful mountain setting created when  great lobes of the continental ice cap receded during the last Ice Age. The lake is over 26 miles long with some 135 miles of shoreline, dotted with numerous parks, campgrounds, beaches, trails and recreational facilities. The lake is fed primarily by two rivers, the Coeur d’Alene River and St. Joe River, and its outlet forms the Spokane River. A natural lake, the lake level is controlled by discharges from the Post Falls Dam operated by Avista."
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "guests",
+      "path": "guests",
+      "count": 5,
+      "types": [
+        {
+          "name": "Int32",
+          "bsonType": "Int32",
+          "path": "guests",
+          "count": 5,
+          "values": [
+            2,
+            8,
+            24,
+            4,
+            10
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "Int32",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "hostId",
+      "path": "hostId",
+      "count": 5,
+      "types": [
+        {
+          "name": "ObjectID",
+          "bsonType": "ObjectID",
+          "path": "hostId",
+          "count": 5,
+          "values": [
+            "6365c026dd45f7b7e8762871",
+            "6365ba67dd45f7b7e8762135",
+            "6365bbe3dd45f7b7e8762138",
+            "6365bb94dd45f7b7e8762187",
+            "6365bb10dd45f7b7e8762184"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "ObjectID",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "imgSrc",
+      "path": "imgSrc",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "imgSrc",
+          "count": 5,
+          "values": [
+            "property6.png",
+            "property2.png",
+            "property5.png",
+            "property4.png",
+            "property3.png"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "nightlyFee",
+      "path": "nightlyFee",
+      "count": 5,
+      "types": [
+        {
+          "name": "Int32",
+          "bsonType": "Int32",
+          "path": "nightlyFee",
+          "count": 5,
+          "values": [
+            78,
+            327,
+            790,
+            220,
+            372
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "Int32",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "serviceFee",
+      "path": "serviceFee",
+      "count": 5,
+      "types": [
+        {
+          "name": "Int32",
+          "bsonType": "Int32",
+          "path": "serviceFee",
+          "count": 5,
+          "values": [
+            13,
+            32,
+            87,
+            19,
+            57
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "Int32",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "title",
+      "path": "title",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "title",
+          "count": 5,
+          "values": [
+            "Eagle's Den Suites",
+            "Sequoia Ridgetop Airbnb",
+            "Kissimmee Homes",
+            "Turgut's Perfect Stay",
+            "Lake Coeur d’Alene"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    }
+  ],
+  "count": 5
+}

@@ -1,0 +1,187 @@
+{
+  "fields": [
+    {
+      "name": "_id",
+      "path": "_id",
+      "count": 3,
+      "types": [
+        {
+          "name": "ObjectID",
+          "bsonType": "ObjectID",
+          "path": "_id",
+          "count": 3,
+          "values": [
+            "636683d6dd45f7b7e8762816",
+            "636683d6dd45f7b7e8762829",
+            "636683d6dd45f7b7e8762172"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 3,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 3,
+      "type": "ObjectID",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "checkIn",
+      "path": "checkIn",
+      "count": 3,
+      "types": [
+        {
+          "name": "Date",
+          "bsonType": "Date",
+          "path": "checkIn",
+          "count": 3,
+          "values": [
+            "2022-06-18T00:00:00.000Z",
+            "2022-11-18T00:00:00.000Z",
+            "2022-12-18T00:00:00.000Z"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 3,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 3,
+      "type": "Date",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "checkOut",
+      "path": "checkOut",
+      "count": 3,
+      "types": [
+        {
+          "name": "Date",
+          "bsonType": "Date",
+          "path": "checkOut",
+          "count": 3,
+          "values": [
+            "2022-06-20T00:00:00.000Z",
+            "2022-11-20T00:00:00.000Z",
+            "2022-12-20T00:00:00.000Z"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 3,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 3,
+      "type": "Date",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "guestId",
+      "path": "guestId",
+      "count": 3,
+      "types": [
+        {
+          "name": "ObjectID",
+          "bsonType": "ObjectID",
+          "path": "guestId",
+          "count": 3,
+          "values": [
+            "6365c026dd45f7b7e8762871",
+            "6365bbe3dd45f7b7e8762138",
+            "6365bb10dd45f7b7e8762184"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 3,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 3,
+      "type": "ObjectID",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "hostId",
+      "path": "hostId",
+      "count": 3,
+      "types": [
+        {
+          "name": "ObjectID",
+          "bsonType": "ObjectID",
+          "path": "hostId",
+          "count": 3,
+          "values": [
+            "6365bbe3dd45f7b7e8762138",
+            "6365bb94dd45f7b7e8762187",
+            "6365ba67dd45f7b7e8762135"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 3,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 3,
+      "type": "ObjectID",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "numberOfGuests",
+      "path": "numberOfGuests",
+      "count": 3,
+      "types": [
+        {
+          "name": "Int32",
+          "bsonType": "Int32",
+          "path": "numberOfGuests",
+          "count": 3,
+          "values": [
+            6,
+            4,
+            2
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 3,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 3,
+      "type": "Int32",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "propertyId",
+      "path": "propertyId",
+      "count": 3,
+      "types": [
+        {
+          "name": "ObjectID",
+          "bsonType": "ObjectID",
+          "path": "propertyId",
+          "count": 3,
+          "values": [
+            "63667a9add45f7b7e8762419",
+            "63667d5cdd45f7b7e8762721",
+            "63667a9add45f7b7e8762148"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 3,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 3,
+      "type": "ObjectID",
+      "has_duplicates": false,
+      "probability": 1
+    }
+  ],
+  "count": 3
+}

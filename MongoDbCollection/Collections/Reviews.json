@@ -1,0 +1,37 @@
+[{
+  "_id": {
+    "$oid": "6366803fdd45f7b7e8762152"
+  },
+  "propertyId": {
+    "$oid": "63667a9add45f7b7e8762148"
+  },
+  "userId": {
+    "$oid": "6365bb10dd45f7b7e8762184"
+  },
+  "comment": "Good ambience",
+  "rating": 4.5
+},{
+  "_id": {
+    "$oid": "6366803fdd45f7b7e8762529"
+  },
+  "propertyId": {
+    "$oid": "63667d5cdd45f7b7e8762721"
+  },
+  "userId": {
+    "$oid": "6365bbe3dd45f7b7e8762138"
+  },
+  "comment": "Highly recommend this home! Breathtaking views!",
+  "rating": 4.7
+},{
+  "_id": {
+    "$oid": "6366803fdd45f7b7e8762759"
+  },
+  "propertyId": {
+    "$oid": "63667a9add45f7b7e8762852"
+  },
+  "userId": {
+    "$oid": "6365bbe3dd45f7b7e8762138"
+  },
+  "comment": "Bad experience, very dirty and too expensive. Would not recommend!",
+  "rating": 3.7
+}]

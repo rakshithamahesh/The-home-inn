@@ -1,0 +1,116 @@
+{
+  "fields": [
+    {
+      "name": "_id",
+      "path": "_id",
+      "count": 3,
+      "types": [
+        {
+          "name": "ObjectID",
+          "bsonType": "ObjectID",
+          "path": "_id",
+          "count": 3,
+          "values": [
+            "63668577dd45f7b7e8762842",
+            "63668577dd45f7b7e8762178",
+            "63668577dd45f7b7e8762826"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 3,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 3,
+      "type": "ObjectID",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "propertyId",
+      "path": "propertyId",
+      "count": 3,
+      "types": [
+        {
+          "name": "Coordinates",
+          "bsonType": "Array",
+          "path": "propertyId",
+          "count": 3,
+          "types": [
+            {
+              "name": "Int32",
+              "bsonType": "Int32",
+              "path": "propertyId",
+              "count": 6,
+              "values": [
+                2,
+                3,
+                1,
+                2,
+                3,
+                4
+              ],
+              "total_count": 0,
+              "probability": 1,
+              "unique": 4,
+              "has_duplicates": true
+            }
+          ],
+          "lengths": [
+            2,
+            2,
+            2
+          ],
+          "total_count": 6,
+          "probability": 1,
+          "average_length": 2,
+          "values": [
+            [
+              2,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              3,
+              4
+            ]
+          ]
+        }
+      ],
+      "total_count": 3,
+      "type": "Array",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "userId",
+      "path": "userId",
+      "count": 3,
+      "types": [
+        {
+          "name": "ObjectID",
+          "bsonType": "ObjectID",
+          "path": "userId",
+          "count": 3,
+          "values": [
+            "6365bb10dd45f7b7e8762184",
+            "6365ba67dd45f7b7e8762135",
+            "6365bb94dd45f7b7e8762187"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 3,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 3,
+      "type": "ObjectID",
+      "has_duplicates": false,
+      "probability": 1
+    }
+  ],
+  "count": 3
+}

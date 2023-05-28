@@ -1,0 +1,350 @@
+{
+	"info": {
+		"_postman_id": "0832f340-f52c-4b31-8564-3a7ce49ad307",
+		"name": "WPL Final Project",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Property API",
+			"item": [
+				{
+					"name": "Get Properties",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9000/properties",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"properties"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Property by ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9000/properties/63667a9add45f7b7e8762148",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"properties",
+								"63667a9add45f7b7e8762148"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add Property",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{ \r\n  \"imgSrc\": \"req.body.imgSrc\",\r\n  \"title\":\"req.body.title\",\r\n  \"description\": \"req.body.description\",\r\n  \"nightlyFee\": 1,\r\n  \"serviceFee\": 1,\r\n  \"cleaningFee\": 1,\r\n  \"amenities\": \"req.body.amenities\",\r\n  \"bedRooms\": 1,\r\n  \"guests\": 1,\r\n  \"availabilityFrom\": \"2022-11-20T19:44:27.336Z\",\r\n  \"availabilityTo\": \"2022-11-20T19:44:27.336Z\",\r\n  \"hostId\": 1,\r\n  \"address\": \"req.body.address\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9000/properties",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"properties"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update the Property",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{ \r\n  \"imgSrc\": \"Updated\",\r\n  \"title\":\"Updated\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9000/properties/637a89ba96a355c8b316f5bb",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"properties",
+								"637a89ba96a355c8b316f5bb"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Property",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9000/properties/637a89ba96a355c8b316f5bb",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"properties",
+								"637a89ba96a355c8b316f5bb"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "SearchProperty",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9000/searchproperty?searchParam=mansion",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"searchproperty"
+							],
+							"query": [
+								{
+									"key": "searchParam",
+									"value": "mansion"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Reservations API",
+			"item": [
+				{
+					"name": "Get Reservation by ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9000/reservations/636683d6dd45f7b7e8762172",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"reservations",
+								"636683d6dd45f7b7e8762172"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Reservation",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"hostId\": \"636683d6dd45f7b7e8762172\",\r\n    \"propertyId\": \"636683d6dd45f7b7e8762172\",\r\n    \"checkIn\": \"2022-11-20T19:44:27.336Z\",\r\n    \"checkOut\": \"2022-11-20T19:44:27.336Z\",\r\n    \"numberOfGuests\": 3\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9000/reservations?userId=6365bb10dd45f7b7e8762184",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"reservations"
+							],
+							"query": [
+								{
+									"key": "userId",
+									"value": "6365bb10dd45f7b7e8762184"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Reservation",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9000/reservations/637a933c7f270bc61bec8b43",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"reservations",
+								"637a933c7f270bc61bec8b43"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get All Rservations of a user",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9000/reservations?userId=6365bb10dd45f7b7e8762184",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"reservations"
+							],
+							"query": [
+								{
+									"key": "userId",
+									"value": "6365bb10dd45f7b7e8762184"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "SignUp/SignIn",
+			"item": [
+				{
+					"name": "user sign up",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"firstName\": \"Rainam\",\r\n  \"lastName\": \"Shah\",\r\n  \"emailId\": \"rainam@gmail.com\",\r\n  \"mobileNo\": \"6878187457\",\r\n  \"gender\": \"male\",\r\n  \"dob\": \"2022-11-20T19:44:27.336Z\",\r\n  \"password\": \"1798\",\r\n  \"isHost\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9000/user/signup",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"user",
+								"signup"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"emailId\": \"rainam@gmail.com\",\r\n    \"password\" : \"1798\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9000/user/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"user",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "host sign up",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"userId\" : \"638cd2c9af5f769f6a40b206\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9000/hostsignup",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"hostsignup"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

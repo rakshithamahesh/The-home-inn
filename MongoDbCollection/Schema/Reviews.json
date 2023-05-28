@@ -1,0 +1,135 @@
+{
+  "fields": [
+    {
+      "name": "_id",
+      "path": "_id",
+      "count": 3,
+      "types": [
+        {
+          "name": "ObjectID",
+          "bsonType": "ObjectID",
+          "path": "_id",
+          "count": 3,
+          "values": [
+            "6366803fdd45f7b7e8762529",
+            "6366803fdd45f7b7e8762759",
+            "6366803fdd45f7b7e8762152"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 3,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 3,
+      "type": "ObjectID",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "comment",
+      "path": "comment",
+      "count": 3,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "comment",
+          "count": 3,
+          "values": [
+            "Highly recommend this home! Breathtaking views!",
+            "Bad experience, very dirty and too expensive. Would not recommend!",
+            "Good ambience"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 3,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 3,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "propertyId",
+      "path": "propertyId",
+      "count": 3,
+      "types": [
+        {
+          "name": "ObjectID",
+          "bsonType": "ObjectID",
+          "path": "propertyId",
+          "count": 3,
+          "values": [
+            "63667d5cdd45f7b7e8762721",
+            "63667a9add45f7b7e8762852",
+            "63667a9add45f7b7e8762148"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 3,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 3,
+      "type": "ObjectID",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "rating",
+      "path": "rating",
+      "count": 3,
+      "types": [
+        {
+          "name": "Double",
+          "bsonType": "Double",
+          "path": "rating",
+          "count": 3,
+          "values": [
+            4.7,
+            3.7,
+            4.5
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 3,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 3,
+      "type": "Double",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "userId",
+      "path": "userId",
+      "count": 3,
+      "types": [
+        {
+          "name": "ObjectID",
+          "bsonType": "ObjectID",
+          "path": "userId",
+          "count": 3,
+          "values": [
+            "6365bbe3dd45f7b7e8762138",
+            "6365bbe3dd45f7b7e8762138",
+            "6365bb10dd45f7b7e8762184"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 2,
+          "has_duplicates": true
+        }
+      ],
+      "total_count": 3,
+      "type": "ObjectID",
+      "has_duplicates": true,
+      "probability": 1
+    }
+  ],
+  "count": 3
+}

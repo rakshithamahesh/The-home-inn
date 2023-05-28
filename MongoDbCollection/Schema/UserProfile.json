@@ -1,0 +1,230 @@
+{
+  "fields": [
+    {
+      "name": "_id",
+      "path": "_id",
+      "count": 5,
+      "types": [
+        {
+          "name": "ObjectID",
+          "bsonType": "ObjectID",
+          "path": "_id",
+          "count": 5,
+          "values": [
+            "6365bb10dd45f7b7e8762184",
+            "6365bb94dd45f7b7e8762187",
+            "6365c026dd45f7b7e8762871",
+            "6365bbe3dd45f7b7e8762138",
+            "6365ba67dd45f7b7e8762135"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "ObjectID",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "dob",
+      "path": "dob",
+      "count": 5,
+      "types": [
+       
+        {
+          "name": "Date",
+          "bsonType": "Date",
+          "path": "dob",
+          "count": 2,
+          "values": [
+            "2022-11-28T00:00:00.000Z",
+            "2022-11-26T00:00:00.000Z"
+          ],
+          "total_count": 0,
+          "probability": 0.4,
+          "unique": 2,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": [
+        "String",
+        "Date"
+      ],
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "emailId",
+      "path": "emailId",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "emailId",
+          "count": 5,
+          "values": [
+            "steven@gmail.com",
+            "path@gmail.com",
+            "lisa@gmail.com",
+            "lily@gmail.com",
+            "john@gmail.com"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "firstName",
+      "path": "firstName",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "firstName",
+          "count": 5,
+          "values": [
+            "Steven",
+            "Parrth",
+            "Lisa",
+            "Lily",
+            "John"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "gender",
+      "path": "gender",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "gender",
+          "count": 5,
+          "values": [
+            "male",
+            "male",
+            "female",
+            "female",
+            "male"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 2,
+          "has_duplicates": true
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": true,
+      "probability": 1
+    },
+    {
+      "name": "lastName",
+      "path": "lastName",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "lastName",
+          "count": 5,
+          "values": [
+            "Mark",
+            "Gupta",
+            "Jewel",
+            "James",
+            "Smith"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "mobileNo",
+      "path": "mobileNo",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "mobileNo",
+          "count": 5,
+          "values": [
+            "8712596341",
+            "4816982571",
+            "2874198659",
+            "8712569871",
+            "4688248719"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "password",
+      "path": "password",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "password",
+          "count": 5,
+          "values": [
+            "1782",
+            "857",
+            "1483",
+            "4789",
+            "1296"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    }
+  ],
+  "count": 5
+}

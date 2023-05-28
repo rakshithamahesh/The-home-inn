@@ -1,0 +1,153 @@
+[{
+  "_id": {
+    "$oid": "63667a9add45f7b7e8762148"
+  },
+  "imgSrc": "images/property2.jpg",
+  "title": "Sequoia Ridgetop Airbnb",
+  "description": "Located in Three Rivers, within 1.9 miles of Three Rivers and 4.4 miles of Kaweah, Sequoia Ridgetop Home - Breathtaking Views & Pool!",
+  "nightlyFee": 327,
+  "serviceFee": 32,
+  "cleaningFee": 25,
+  "amenities": "Private Pool, Sports bar, game room, Free Wifi.",
+  "bedrooms": 4,
+  "guests": 8,
+  "availabilityFrom": {
+    "$date": {
+      "$numberLong": "1645228800000"
+    }
+  },
+  "availabilityTo": {
+    "$date": {
+      "$numberLong": "1645920000000"
+    }
+  },
+  "hostId": {
+    "$oid": "6365ba67dd45f7b7e8762135"
+  },
+  "address": {
+    "city": "Three Rivers",
+    "state": "California",
+    "country": "United States"
+  },
+  "propertyType": "Amazing View"
+},{
+  "_id": {
+    "$oid": "63667d5cdd45f7b7e8762841"
+  },
+  "imgSrc": "images/property3.jpg",
+  "title": "Lake Coeur d’Alene",
+  "description": "Coeur d’Alene Lake is the second largest lake in northern Idaho, caught in a beautiful mountain setting created when  great lobes of the continental ice cap receded during the last Ice Age. The lake is over 26 miles long with some 135 miles of shoreline, dotted with numerous parks, campgrounds, beaches, trails and recreational facilities. The lake is fed primarily by two rivers, the Coeur d’Alene River and St. Joe River, and its outlet forms the Spokane River. A natural lake, the lake level is controlled by discharges from the Post Falls Dam operated by Avista.",
+  "nightlyFee": 372,
+  "serviceFee": 57,
+  "cleaningFee": 35,
+  "amenities": "Boating, Nature Walk, Free Wifi, Fishing.",
+  "bedrooms": 5,
+  "guests": 10,
+  "availabilityFrom": "2022-10-19",
+  "availabilityTo": "2022-10-27",
+  "hostId": {
+    "$oid": "6365bb10dd45f7b7e8762184"
+  },
+  "address": {
+    "city": "Worley",
+    "state": "Idaho",
+    "country": "United States"
+  },
+  "propertyType": "Lake House"
+},{
+  "_id": {
+    "$oid": "63667d5cdd45f7b7e8762721"
+  },
+  "imgSrc": "images/property4.jpg",
+  "title": "Turgut's Perfect Stay",
+  "description": "The home is equipped with everything you need for the perfect getaway. Directly off the interstate, our home is 3-5 min. away from local stores and Starbucks. Have a taste of Texas, while still having easy accessibility to all that Dallas and Rockwall has to offer!",
+  "nightlyFee": 220,
+  "serviceFee": 19,
+  "cleaningFee": 11,
+  "amenities": "Home Theatre, Pool, Game room, Playstation, Free Wifi, Breakfast included.",
+  "bedrooms": 2,
+  "guests": 4,
+  "availabilityFrom": {
+    "$date": {
+      "$numberLong": "1668816000000"
+    }
+  },
+  "availabilityTo": {
+    "$date": {
+      "$numberLong": "1669507200000"
+    }
+  },
+  "hostId": {
+    "$oid": "6365bb94dd45f7b7e8762187"
+  },
+  "address": {
+    "city": "Forney",
+    "state": "Idaho",
+    "country": "United States"
+  },
+  "propertyType": "Mansion"
+},{
+  "_id": {
+    "$oid": "63667a9add45f7b7e8762419"
+  },
+  "imgSrc": "images/property5.jpg",
+  "title": "Kissimmee Homes",
+  "description": "With the largest collection of vacation home rentals in the world, it’s easy to see why Kissimmee is the Vacation Home Capital of the World®. Take your pick of everything from condos, pool homes, high-value villas, and single-family abodes to 12-bedroom mansions, perfect for reunions or friends sharing a golf, shopping, or spa weekend. Plus, there are even pet-friendly vacation rentals, so that every member of the family can join in the fun. Enjoy all the comforts of home (with world-famous theme parks right in your backyard) at your Kissimmee, Florida vacation home.",
+  "nightlyFee": 790,
+  "serviceFee": 87,
+  "cleaningFee": 35,
+  "amenities": "Golf Course, Spa, Pool, Free wifi, Sauna, Nature walk.",
+  "bedrooms": 12,
+  "guests": 24,
+  "availabilityFrom": {
+    "$date": {
+      "$numberLong": "1655596800000"
+    }
+  },
+  "availabilityTo": {
+    "$date": {
+      "$numberLong": "1656288000000"
+    }
+  },
+  "hostId": {
+    "$oid": "6365bbe3dd45f7b7e8762138"
+  },
+  "address": {
+    "city": "Kissimmee",
+    "state": "Florida",
+    "country": "United States"
+  },
+  "propertyType": "Mansion"
+},{
+  "_id": {
+    "$oid": "63667a9add45f7b7e8762852"
+  },
+  "imgSrc": "images/property6.jpg",
+  "title": "Eagle's Den Suites",
+  "description": "Set in a low-rise building along Route 281, this unpretentious all-suite hotel is 2 miles from Tips Park, 4 miles from Interstate 37 and 11 miles from Choke Canyon State Park.",
+  "nightlyFee": 78,
+  "serviceFee": 13,
+  "cleaningFee": 7,
+  "amenities": "Beach House, Spa, Pool, Free wifi, Sauna, water activities.",
+  "bedrooms": 1,
+  "guests": 2,
+  "availabilityFrom": {
+    "$date": {
+      "$numberLong": "1652918400000"
+    }
+  },
+  "availabilityTo": {
+    "$date": {
+      "$numberLong": "1656288000000"
+    }
+  },
+  "hostId": {
+    "$oid": "6365c026dd45f7b7e8762871"
+  },
+  "address": {
+    "city": "Three Rivers",
+    "state": "Texas",
+    "country": "United States"
+  },
+  "propertyType": "Beach House"
+}]

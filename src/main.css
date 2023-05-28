@@ -1,0 +1,693 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+body {
+  font-family: system-ui;
+  background-color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.btn-toggle {
+  background-color: #ed590f;
+  border-color: #ed590f;
+  color: white;
+}
+
+.property-image {
+  text-align: center;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+
+.property-desc {
+  width: 80%;
+}
+
+.review-form-container {
+  text-align: center;
+  justify-content: center;
+
+}
+
+.review-form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+a,
+a:hover,
+a:focus {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.navbar {
+  padding: 15px 10px;
+  background: #fff;
+  border: none;
+  border-radius: 0;
+  margin-bottom: 40px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.nav-item {
+  font-size: 20px;
+  margin-top: 0px;
+  margin-right: 30px;
+}
+
+.collapse .nav .nav-item .nav-link {
+  color: black;
+}
+
+.collapse .nav .nav-item a:hover {
+  color: #ed590f;
+}
+
+.form-control {
+  border-color: #ed590f;
+}
+
+.form-outline {
+  width: 50%;
+}
+
+[role="button"] {
+  margin-right: 40px;
+}
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+
+.wrapper {
+  display: flex;
+  align-items: stretch;
+}
+
+#sidebar {
+  min-width: 250px;
+  max-width: 250px;
+  background: #f2f2f2;
+  transition: all 0.3s;
+}
+
+#sidebar.active {
+  min-width: 80px;
+  max-width: 80px;
+  text-align: center;
+}
+
+#sidebar.active .sidebar-header h3,
+#sidebar.active .CTAs {
+  display: none;
+}
+
+#sidebar.active .sidebar-header strong {
+  display: block;
+}
+
+#sidebar ul li a {
+  overflow: hidden;
+  overflow-wrap: break-word;
+  text-overflow: ellipsis;
+  text-align: left;
+}
+
+#sidebar.active ul li a {
+  padding: 20px 10px;
+  text-align: center;
+  font-size: 0.85em;
+}
+
+#sidebar.active ul li a i {
+  margin-right: 0;
+  display: block;
+  font-size: 1.8em;
+  margin-bottom: 5px;
+}
+
+#sidebar.active ul ul a {
+  padding: 10px !important;
+}
+
+#sidebar.active .dropdown-toggle::after {
+  top: auto;
+  bottom: 10px;
+  right: 50%;
+  -webkit-transform: translateX(50%);
+  -ms-transform: translateX(50%);
+  transform: translateX(50%);
+}
+
+#sidebar .sidebar-header {
+  padding: 20px;
+  background: #f2f2f2;
+}
+
+#sidebar .sidebar-header strong {
+  display: none;
+  font-size: 1.8em;
+}
+
+#sidebar ul li a {
+  padding: 10px;
+  font-size: 1.1em;
+  display: block;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#sidebar ul li a:hover {
+  color: white;
+  background: #ed590f;
+}
+
+#sidebar ul li a i {
+  margin-right: 10px;
+}
+
+#sidebar ul li.active>a,
+a[aria-expanded="true"] {
+  color: white;
+}
+
+a[data-toggle="collapse"] {
+  position: relative;
+}
+
+ul ul a {
+  font-size: 0.9em !important;
+  padding-left: 30px !important;
+  background: #ed590f;
+}
+
+ul.CTAs {
+  padding: 20px;
+}
+
+ul.CTAs a {
+  text-align: center;
+  font-size: 0.9em !important;
+  display: block;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+a.download {
+  background: #fff;
+  color: #7386d5;
+}
+
+a.article,
+a.article:hover {
+  background: #6d7fcc !important;
+  color: #fff !important;
+}
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+#content {
+  width: 100%;
+  padding: 20px;
+  min-height: 100vh;
+  transition: all 0.3s;
+}
+
+/* ---------------------------------------------------
+    CAROUSEL STYLE
+----------------------------------------------------- */
+.carousel {
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.carousel-image {
+  width: 100%;
+  height: 400px;
+}
+
+.custommainnav {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.customnav {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#carouselExampleFade {
+  justify-content: center;
+}
+
+/* ---------------------------------------------------
+    ACCORDION STYLE
+----------------------------------------------------- */
+.popular-property {
+  color: #ed590f;
+  margin: auto;
+  text-align: center;
+  margin: 20px 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn {
+  color: #ed590f;
+  border-color: #ed590f;
+  background-color: white;
+}
+
+.btn-accordion {
+  padding: 15px;
+}
+
+#accordion-detail-btn {
+  border-color: #ed590f;
+}
+
+.btn:hover {
+  background-color: #ed590f;
+  color: white;
+}
+
+.accordion-button:not(.collapsed) {
+  color: white;
+  background-color: #ed590f;
+  border-color: #ed590f;
+}
+
+.accordion-button:focus {
+  border-color: #ed590f;
+  box-shadow: 0 0 0 0.25rem rgb(237, 89, 15, 0.35);
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23FFFFFF'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.accordion-button::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ed590f'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.accordion-button:after {
+  color: #ed590f;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.width100 {
+  width: 100%;
+}
+
+/* ---------------------------------------------------
+    CARD STYLE
+----------------------------------------------------- */
+.card {
+  padding: 1.5%;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  background-color: #f2f2f2;
+}
+
+.card img {
+  height: 160px;
+}
+
+.card-body {
+  justify-content: center;
+}
+
+.card-grid {
+  padding: 1%;
+  box-shadow: 20%;
+  width: 50%;
+}
+
+.card-icon {
+  font-size: 250%;
+}
+
+.card-link {
+  text-decoration: none;
+}
+
+.card-text {
+  color: #ed590f;
+  justify-content: center;
+}
+
+.card-title {
+  color: #ed590f;
+}
+
+.card-img-top {
+  border-radius: 15px;
+}
+
+.card-star {
+  color: #ed590f;
+}
+
+/* ---------------------------------------------------
+    FOOTER STYLE
+----------------------------------------------------- */
+footer {
+  font-family: sans-serif;
+  color: #ed590f;
+}
+
+.footer-copyright p {
+  font-family: sans-serif;
+  color: #ed590f;
+  font-weight: bold;
+
+}
+
+.horizontal-line {
+  color: darkgrey;
+  margin-left: 0.5%;
+  margin-right: 1.5%;
+  margin-top: 3%;
+  margin-bottom: 1%;
+}
+
+/* ---------------------------------------------------
+    LOGIN
+----------------------------------------------------- */
+
+.error {
+  color: red;
+  margin-bottom: 5px;
+}
+
+.success {
+  color: green;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+
+@media (max-width: 768px) {
+  #sidebar {
+    min-width: 80px;
+    max-width: 80px;
+    text-align: center;
+    margin-left: -80px !important;
+  }
+
+  .dropdown-toggle::after {
+    top: auto;
+    bottom: 10px;
+    right: 50%;
+    -webkit-transform: translateX(50%);
+    -ms-transform: translateX(50%);
+    transform: translateX(50%);
+  }
+
+  #sidebar.active {
+    margin-left: 0 !important;
+  }
+
+  #sidebar .sidebar-header h3,
+  #sidebar .CTAs {
+    display: none;
+  }
+
+  #sidebar .sidebar-header strong {
+    display: block;
+  }
+
+  #sidebar ul li a {
+    padding: 20px 10px;
+  }
+
+  #sidebar ul li a span {
+    font-size: 0.85em;
+  }
+
+  #sidebar ul li a i {
+    margin-right: 0;
+    display: block;
+  }
+
+  #sidebar ul ul a {
+    padding: 10px !important;
+  }
+
+  #sidebar ul li a i {
+    font-size: 1.3em;
+  }
+
+  #sidebar {
+    margin-left: 0;
+  }
+
+  #sidebarCollapse span {
+    display: none;
+  }
+
+  #carouselExampleFade {
+    height: 200px;
+  }
+
+  .nav-item {
+    font-size: 15px;
+  }
+}
+
+/* ---------------------------------------------------
+   LOGIN FORM
+----------------------------------------------------- */
+
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+
+.h-custom {
+  height: calc(100% - 73px);
+}
+
+@media (max-width: 450px) {
+  .h-custom {
+    height: 100%;
+  }
+}
+
+.loginButton {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+/* ---------------------------------------------------
+   SIGN UP FORM
+----------------------------------------------------- */
+.signup-form {
+  margin-left: 30%;
+}
+
+.signup-form-group {
+  width: 50%;
+}
+
+.signup-form .img-fluid {
+  width: 50%;
+}
+
+.link-success {
+  font-style: italic;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  opacity: 1;
+  /* Firefox */
+
+}
+
+/* ---------------------------------------------------
+   ADD PROPERTY PAGE
+----------------------------------------------------- */
+.addproperty {
+  margin: 2% 25% 2% 25%;
+  padding: 20px 0px 20px 50px;
+  border: 2px #ed590f solid;
+  border-radius: 15px;
+  width: 50%;
+}
+
+.form-field {
+  width: 300%;
+}
+
+.field-errors {
+  font-size: 13px;
+  color: red;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.reserve-errors {
+  font-size: 13px;
+  color: red;
+  font-family: "Times New Roman", Times, serif;
+  text-align: right;
+}
+
+/* ---------------------------------------------------
+   BECOME HOST PAGE
+----------------------------------------------------- */
+
+
+.btn-outline-success {
+  color: green;
+  border-color: green;
+  background-color: white;
+}
+
+.btn-outline-success:hover {
+  color: white;
+  border-color: green;
+  background-color: green;
+}
+
+.btn-outline-danger {
+  color: red;
+  border-color: red;
+  background-color: white;
+}
+
+.btn-outline-danger:hover {
+  color: white;
+  border-color: red;
+  background-color: red;
+}
+
+.hostcontainer {
+  margin: 20% 25% 2% 20%;
+  padding: 20px 20px 30px 30px;
+  border: 2px #ed590f solid;
+  border-radius: 15px;
+  width: 56%;
+  background-color: #f2f2f2;
+}
+
+@media (max-width: 321px) {
+  .hostpara {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .hostacceptButton {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: 5%;
+  }
+
+  .hostdeclineButton {
+    padding-left: 2rem;
+    padding-right: 2.3rem;
+    margin-top: 5%;
+  }
+}
+
+@media only screen and (max-width: 769px) and (min-width: 321px) {
+  .hostpara {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .hostacceptButton {
+    padding-left: 6.5rem;
+    padding-right: 6.5rem;
+    margin-top: 5%;
+  }
+
+  .hostdeclineButton {
+    padding-left: 6.5rem;
+    padding-right: 6.8rem;
+    margin-top: 5%;
+  }
+}
+
+@media only screen and (max-width: 1025px) and (min-width: 770px) {
+  .hostpara {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .hostacceptButton {
+    padding-left: 6.5rem;
+    padding-right: 6.5rem;
+    margin-top: 5%;
+  }
+
+  .hostdeclineButton {
+    padding-left: 6.5rem;
+    padding-right: 6.8rem;
+    margin-top: 5%;
+  }
+}
+
+/* ---------------------------------------------------
+   PROPERTY DETAILS PAGE
+----------------------------------------------------- */
+.propertydetailsupdateButton {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-right: 5px;
+}
+
+.propertydetailsdeleteButton {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.btn-outline-warning {
+  color: white;
+  border-color: black;
+  background-color: #267272;
+}
+
+.btn-outline-warning:hover {
+  color: black;
+  border-color: black;
+  background-color: white;
+}
+
+.btn-outline-delete {
+  color: white;
+  border-color: red;
+  background-color: red;
+}
+
+.btn-outline-delete:hover {
+  color: red;
+  border-color: red;
+  background-color: white;
+}
+
+/* ---------------------------------------------------
+   REVIEW CARD
+----------------------------------------------------- */
+.review-card {
+  background-color: white;
+}
+
+.card-header {
+  background-color: #ed590f;
+  color: white;
+}
